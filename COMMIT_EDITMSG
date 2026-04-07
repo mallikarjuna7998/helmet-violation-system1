@@ -1,0 +1,226 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   README.md
+#	new file:   backend/.env
+#	new file:   backend/.env.example
+#	new file:   backend/__pycache__/app.cpython-311.pyc
+#	new file:   backend/__pycache__/app.cpython-312.pyc
+#	new file:   backend/__pycache__/run.cpython-312.pyc
+#	new file:   backend/__pycache__/video_processor.cpython-312.pyc
+#	new file:   backend/app.py
+#	new file:   backend/config/__init__.py
+#	new file:   backend/config/__pycache__/__init__.cpython-311.pyc
+#	new file:   backend/config/__pycache__/__init__.cpython-312.pyc
+#	new file:   backend/config/__pycache__/settings.cpython-311.pyc
+#	new file:   backend/config/__pycache__/settings.cpython-312.pyc
+#	new file:   backend/config/settings.py
+#	new file:   backend/data/helmet_violations.db
+#	new file:   backend/exports/violation_0172AP390172_20260406_084546.json
+#	new file:   backend/exports/violation_04538_20260403_084630.json
+#	new file:   backend/exports/violation_04538_20260403_084930.json
+#	new file:   backend/exports/violation_16M1NUTESAG0_20260403_084853.json
+#	new file:   backend/exports/violation_AP 03 BR 4545_20260310_070800.json
+#	new file:   backend/exports/violation_AP03 BR4545_20260310_071122.json
+#	new file:   backend/exports/violation_AP03 BR4545_20260310_071333.json
+#	new file:   backend/exports/violation_AP03 BR4545_20260310_071601.json
+#	new file:   backend/exports/violation_AP03 BR4545_20260310_071647.json
+#	new file:   backend/exports/violation_AP03 BR4545_20260310_073225.json
+#	new file:   backend/exports/violation_AP03BR4545_20260310_065723.json
+#	new file:   backend/exports/violation_AP03_20260310_070703.json
+#	new file:   backend/exports/violation_AP0BDR27491_20260310_072926.json
+#	new file:   backend/exports/violation_AP0ZDR2749_20260310_072536.json
+#	new file:   backend/exports/violation_AP36 EF0172_20260406_084958.json
+#	new file:   backend/exports/violation_AP39 FF0172_20260403_082936.json
+#	new file:   backend/exports/violation_AP39 R0453B_20260403_085856.json
+#	new file:   backend/exports/violation_AP39 R0453B_20260403_085959.json
+#	new file:   backend/exports/violation_AP39 R0L53B_20260403_085919.json
+#	new file:   backend/exports/violation_AP39 RAP33R_20260403_090046.json
+#	new file:   backend/exports/violation_AP39 RO4538_20260403_090217.json
+#	new file:   backend/exports/violation_AP39 RO4538_20260403_090917.json
+#	new file:   backend/exports/violation_AP39 RO4538_20260403_093614.json
+#	new file:   backend/exports/violation_AP39 RO4538_20260406_084101.json
+#	new file:   backend/exports/violation_AP39 RO4538_20260407_041651.json
+#	new file:   backend/exports/violation_AP39RI_20260403_083847.json
+#	new file:   backend/exports/violation_BR4545_20260310_065814.json
+#	new file:   backend/exports/violation_BR4545_20260310_065856.json
+#	new file:   backend/exports/violation_BR4545_20260310_070456.json
+#	new file:   backend/exports/violation_BR4545_20260310_072139.json
+#	new file:   backend/exports/violation_IOTI5OP_20260310_064415.json
+#	new file:   backend/exports/violation_IRIYLU_20260310_065151.json
+#	new file:   backend/exports/violation_KHALIL1T1UN_20260310_071053.json
+#	new file:   backend/exports/violation_TRATIC_20260310_060434.json
+#	new file:   backend/exports/violation_UATION_20260310_064848.json
+#	new file:   backend/exports/violation_UNKNOWN_20260310_064906.json
+#	new file:   backend/exports/violation_UNKNOWN_20260310_065440.json
+#	new file:   backend/exports/violation_UNKNOWN_20260310_065453.json
+#	new file:   backend/exports/violation_UNKNOWN_20260310_065606.json
+#	new file:   backend/exports/violation_UNKNOWN_20260403_083819.json
+#	new file:   backend/exports/violation_UNKNOWN_20260403_085438.json
+#	new file:   backend/exports/violation_UNKNOWN_20260403_085605.json
+#	new file:   backend/models/__init__.py
+#	new file:   backend/models/__pycache__/__init__.cpython-311.pyc
+#	new file:   backend/models/__pycache__/__init__.cpython-312.pyc
+#	new file:   backend/models/__pycache__/database.cpython-311.pyc
+#	new file:   backend/models/__pycache__/database.cpython-312.pyc
+#	new file:   backend/models/database.py
+#	new file:   backend/package-lock.json
+#	new file:   backend/requirements-minimal.txt
+#	new file:   backend/requirements.txt
+#	new file:   backend/run.py
+#	new file:   backend/scripts/__pycache__/add_vehicle.cpython-312.pyc
+#	new file:   backend/scripts/__pycache__/init_db.cpython-312.pyc
+#	new file:   backend/scripts/add_vehicle.py
+#	new file:   backend/scripts/init_db.py
+#	new file:   backend/services/__init__.py
+#	new file:   backend/services/__pycache__/__init__.cpython-311.pyc
+#	new file:   backend/services/__pycache__/__init__.cpython-312.pyc
+#	new file:   backend/services/__pycache__/analytics.cpython-311.pyc
+#	new file:   backend/services/__pycache__/analytics.cpython-312.pyc
+#	new file:   backend/services/__pycache__/anpr.cpython-311.pyc
+#	new file:   backend/services/__pycache__/anpr.cpython-312.pyc
+#	new file:   backend/services/__pycache__/helmet_detector.cpython-311.pyc
+#	new file:   backend/services/__pycache__/helmet_detector.cpython-312.pyc
+#	new file:   backend/services/__pycache__/notifications.cpython-311.pyc
+#	new file:   backend/services/__pycache__/notifications.cpython-312.pyc
+#	new file:   backend/services/__pycache__/vehicle_registry.cpython-311.pyc
+#	new file:   backend/services/__pycache__/vehicle_registry.cpython-312.pyc
+#	new file:   backend/services/analytics.py
+#	new file:   backend/services/anpr.py
+#	new file:   backend/services/helmet_detector.py
+#	new file:   backend/services/notifications.py
+#	new file:   backend/services/vehicle_registry.py
+#	new file:   backend/utils/__init__.py
+#	new file:   backend/utils/__pycache__/__init__.cpython-311.pyc
+#	new file:   backend/utils/__pycache__/__init__.cpython-312.pyc
+#	new file:   backend/utils/__pycache__/plate_utils.cpython-311.pyc
+#	new file:   backend/utils/__pycache__/plate_utils.cpython-312.pyc
+#	new file:   backend/utils/plate_utils.py
+#	new file:   backend/video_processor.py
+#	new file:   backend/violations/violation_0172AP390172_20260406_084546.jpg
+#	new file:   backend/violations/violation_04538_20260403_084630.jpg
+#	new file:   backend/violations/violation_04538_20260403_084930.jpg
+#	new file:   backend/violations/violation_16M1NUTESAG0_20260403_084853.jpg
+#	new file:   backend/violations/violation_AP 03 BR 4545_20260310_070800.jpg
+#	new file:   backend/violations/violation_AP03 BR4545_20260310_071122.jpg
+#	new file:   backend/violations/violation_AP03 BR4545_20260310_071333.jpg
+#	new file:   backend/violations/violation_AP03 BR4545_20260310_071601.jpg
+#	new file:   backend/violations/violation_AP03 BR4545_20260310_071647.jpg
+#	new file:   backend/violations/violation_AP03 BR4545_20260310_073225.jpg
+#	new file:   backend/violations/violation_AP03BR4545_20260310_065723.jpg
+#	new file:   backend/violations/violation_AP03_20260310_070703.jpg
+#	new file:   backend/violations/violation_AP0BDR27491_20260310_072926.jpg
+#	new file:   backend/violations/violation_AP0ZDR2749_20260310_072536.jpg
+#	new file:   backend/violations/violation_AP36 EF0172_20260406_084958.jpg
+#	new file:   backend/violations/violation_AP39 FF0172_20260403_082936.jpg
+#	new file:   backend/violations/violation_AP39 R0453B_20260403_085856.jpg
+#	new file:   backend/violations/violation_AP39 R0453B_20260403_085959.jpg
+#	new file:   backend/violations/violation_AP39 R0L53B_20260403_085919.jpg
+#	new file:   backend/violations/violation_AP39 RAP33R_20260403_090046.jpg
+#	new file:   backend/violations/violation_AP39 RO4538_20260403_090217.jpg
+#	new file:   backend/violations/violation_AP39 RO4538_20260403_090917.jpg
+#	new file:   backend/violations/violation_AP39 RO4538_20260403_093614.jpg
+#	new file:   backend/violations/violation_AP39 RO4538_20260406_084101.jpg
+#	new file:   backend/violations/violation_AP39 RO4538_20260407_041651.jpg
+#	new file:   backend/violations/violation_AP39RI_20260403_083847.jpg
+#	new file:   backend/violations/violation_BR4545_20260310_065814.jpg
+#	new file:   backend/violations/violation_BR4545_20260310_065856.jpg
+#	new file:   backend/violations/violation_BR4545_20260310_070456.jpg
+#	new file:   backend/violations/violation_BR4545_20260310_072139.jpg
+#	new file:   backend/violations/violation_IOTI5OP_20260310_064415.jpg
+#	new file:   backend/violations/violation_IRIYLU_20260310_065151.jpg
+#	new file:   backend/violations/violation_KHALIL1T1UN_20260310_071053.jpg
+#	new file:   backend/violations/violation_TRATIC_20260310_060434.jpg
+#	new file:   backend/violations/violation_UATION_20260310_064848.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260310_064906.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260310_065440.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260310_065453.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260310_065606.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260403_083819.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260403_085438.jpg
+#	new file:   backend/violations/violation_UNKNOWN_20260403_085605.jpg
+#	new file:   backend/yolov8n.pt
+#	new file:   docs/Helmet_Violation_System_Project_Report.docx
+#	new file:   docs/Helmet_Violation_System_Project_Report.md
+#	new file:   docs/export_report_to_word.py
+#	new file:   mobile_app/.gitignore
+#	new file:   mobile_app/.metadata
+#	new file:   mobile_app/README.md
+#	new file:   mobile_app/analysis_options.yaml
+#	new file:   mobile_app/android/.gitignore
+#	new file:   mobile_app/android/app/build.gradle.kts
+#	new file:   mobile_app/android/app/src/debug/AndroidManifest.xml
+#	new file:   mobile_app/android/app/src/main/AndroidManifest.xml
+#	new file:   mobile_app/android/app/src/main/kotlin/com/helmetviolation/mobile_app/MainActivity.kt
+#	new file:   mobile_app/android/app/src/main/res/drawable-v21/launch_background.xml
+#	new file:   mobile_app/android/app/src/main/res/drawable/launch_background.xml
+#	new file:   mobile_app/android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+#	new file:   mobile_app/android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+#	new file:   mobile_app/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+#	new file:   mobile_app/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+#	new file:   mobile_app/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+#	new file:   mobile_app/android/app/src/main/res/values-night/styles.xml
+#	new file:   mobile_app/android/app/src/main/res/values/styles.xml
+#	new file:   mobile_app/android/app/src/profile/AndroidManifest.xml
+#	new file:   mobile_app/android/build.gradle.kts
+#	new file:   mobile_app/android/gradle.properties
+#	new file:   mobile_app/android/gradle/wrapper/gradle-wrapper.properties
+#	new file:   mobile_app/android/settings.gradle.kts
+#	new file:   mobile_app/ios/.gitignore
+#	new file:   mobile_app/ios/Flutter/AppFrameworkInfo.plist
+#	new file:   mobile_app/ios/Flutter/Debug.xcconfig
+#	new file:   mobile_app/ios/Flutter/Release.xcconfig
+#	new file:   mobile_app/ios/Runner.xcodeproj/project.pbxproj
+#	new file:   mobile_app/ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   mobile_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+#	new file:   mobile_app/ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+#	new file:   mobile_app/ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme
+#	new file:   mobile_app/ios/Runner.xcworkspace/contents.xcworkspacedata
+#	new file:   mobile_app/ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+#	new file:   mobile_app/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+#	new file:   mobile_app/ios/Runner/AppDelegate.swift
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png
+#	new file:   mobile_app/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md
+#	new file:   mobile_app/ios/Runner/Base.lproj/LaunchScreen.storyboard
+#	new file:   mobile_app/ios/Runner/Base.lproj/Main.storyboard
+#	new file:   mobile_app/ios/Runner/Info.plist
+#	new file:   mobile_app/ios/Runner/Runner-Bridging-Header.h
+#	new file:   mobile_app/ios/RunnerTests/RunnerTests.swift
+#	new file:   mobile_app/lib/main.dart
+#	new file:   mobile_app/lib/screens/add_vehicle_screen.dart
+#	new file:   mobile_app/lib/screens/analytics_screen.dart
+#	new file:   mobile_app/lib/screens/camera_screen.dart
+#	new file:   mobile_app/lib/screens/home_screen.dart
+#	new file:   mobile_app/lib/screens/settings_screen.dart
+#	new file:   mobile_app/lib/screens/violations_screen.dart
+#	new file:   mobile_app/lib/services/api_service.dart
+#	new file:   mobile_app/lib/services/refresh_notifier.dart
+#	new file:   mobile_app/pubspec.lock
+#	new file:   mobile_app/pubspec.yaml
+#	new file:   mobile_app/test/widget_test.dart
+#
